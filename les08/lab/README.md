@@ -78,7 +78,6 @@ gradle run
 
 ## UML-диаграмма классов
 
-```markdown
 ```mermaid
 classDiagram
 
