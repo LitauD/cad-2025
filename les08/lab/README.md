@@ -76,9 +76,9 @@ gradle run
 Клиент: Алексей Иванов
 Товар: Сухой корм для собак
 
-```markdown
 ## UML-диаграмма классов
 
+```markdown
 ```mermaid
 classDiagram
 
