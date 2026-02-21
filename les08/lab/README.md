@@ -76,41 +76,17 @@ gradle run
 Клиент: Алексей Иванов
 Товар: Сухой корм для собак
 
-UML-диаграмма классов
+```markdown
+## UML-диаграмма классов
 
+```mermaid
 classDiagram
 
-class Category {
-  id
-  name
-  description
-}
-
-class Product {
-  id
-  name
-  price
-  stockQuantity
-}
-
-class Customer {
-  id
-  name
-  email
-}
-
-class Order {
-  id
-  orderDate
-  status
-  totalPrice
-}
-
-class OrderDetail {
-  id
-  quantity
-  price
-}
+class Category
+class Product
+class Customer
+class Order
+class OrderDetail
 
 Category "1" --> "many" Product
 Customer "1" --> "many" Order
