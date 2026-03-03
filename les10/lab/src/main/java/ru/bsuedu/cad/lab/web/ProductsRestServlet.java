@@ -1,6 +1,5 @@
 package ru.bsuedu.cad.lab.web;
 
-import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.WebServlet;
 import ru.bsuedu.cad.lab.repository.ProductRepository;
