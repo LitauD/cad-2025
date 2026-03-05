@@ -25,6 +25,7 @@ http://localhost:8080/product-table/api/orders
   "status": "NEW",
   "shippingAddress": "Moscow, Lenina 1"
 }
+```
 
 ## Тестирование
 
